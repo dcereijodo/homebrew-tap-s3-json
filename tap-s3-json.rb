@@ -1,8 +1,8 @@
 class TapS3Json < Formula
   desc "A Singer.io tap for Json files in S3"
   homepage "https://github.com/dcereijodo/tap-s3-json"
-  url "https://github.com/dcereijodo/tap-s3-json/releases/download/v0.0.1/tap-s3-json-0.0.1.zip"
-  sha256 "5e1912dc0f08b35254c90381a654249a9fe4f8ed8068265bd4041ba71782f25c"
+  url "https://github.com/dcereijodo/tap-s3-json/releases/download/v0.0.2/tap-s3-json-0.0.2.zip"
+  sha256 "eed8e97dabdf94bd6253e795dc8b28a827a3ef741975194f048d322b6e5a9835"
 
   depends_on :java => "1.8+"
 
@@ -18,6 +18,6 @@ class TapS3Json < Formula
 
   test do
     # a bad test
-    assert_equal "0.0.1", shell_output("#{bin}/tap-s3-json version").strip
+    assert_equal "0.0.2", shell_output("#{bin}/tap-s3-json version").strip
   end
 end
