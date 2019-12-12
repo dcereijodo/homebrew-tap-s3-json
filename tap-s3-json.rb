@@ -1,8 +1,8 @@
 class TapS3Json < Formula
   desc "A Singer.io tap for Json files in S3"
   homepage "https://github.com/dcereijodo/tap-s3-json"
-  url "https://github.com/dcereijodo/tap-s3-json/releases/download/v0.0.2/tap-s3-json-0.0.2.zip"
-  sha256 "eed8e97dabdf94bd6253e795dc8b28a827a3ef741975194f048d322b6e5a9835"
+  url "https://github.com/dcereijodo/tap-s3-json/releases/download/v0.0.3/tap-s3-json-0.0.3.zip"
+  sha256 "823a1308a3f815f77f93a9f9440282bf060bdda6c209c258faf6ecd6fe3dfcbb"
 
   depends_on :java => "1.8+"
 
